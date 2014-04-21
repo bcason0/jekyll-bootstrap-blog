@@ -1,6 +1,7 @@
 name: Jekyll Bootstrap Blog
 description: A blog theme for Jekyll using Twitter Bootstrap
 author: Andrew Shell
+markdown: kramdown
 
 # Please remove or change to your own from http://disqus.com/
 disqus_shortname: jekyll-bootstrap-blog
