@@ -25,11 +25,14 @@ paginate: 10
 
 # Scheme and Hostname for your website without trailing slash
 # (ex: http://andrewshell.github.io)
-url: http://www.jekyll-bootstrap-blog.com
+url: http://andrewshell.github.io
 
 # Folder part of the path to get to your website without trailing slash
 # (ex: /projectname)
 baseurl:
+
+# Code for Google Analytics
+gacode: UA-XXXXX-X
 
 githuburl: https://github.com/andrewshell/jekyll-bootstrap-blog
 
