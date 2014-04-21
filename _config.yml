@@ -31,6 +31,9 @@ url: http://andrewshell.github.io
 # (ex: /projectname)
 baseurl: /jekyll-bootstrap-blog
 
+# Code for Google Analytics
+gacode: UA-XXXXX-X
+
 githuburl: https://github.com/andrewshell/jekyll-bootstrap-blog
 
 safe: true

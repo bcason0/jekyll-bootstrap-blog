@@ -1,15 +1,15 @@
 <div class="container" id="footer">
-    <p class="pull-right"><small><a href="http://www.jekyll-bootstrap-blog.com/">Jekyll Bootstrap Blog</a> powered by <a href="http://pages.github.com/">GitHub Pages</a></small></p>
+    <p class="pull-right"><small>Powered by <a href="https://github.com/andrewshell/jekyll-bootstrap-blog">Jekyll Bootstrap Blog</a> and <a href="http://pages.github.com/">GitHub Pages</a></small></p>
     <p><small>&copy; {{ site.time | date: '%Y' }} <a href="{{ site.baseurl }}/">{{ site.name }}</small></a>
 </div>
 
 </div><!-- .container -->
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <!-- Google Analytics: Update gacode in _config.yml to be your site's ID. -->
     <script type="text/javascript">
 
     var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-XXXXX-X']);
+    _gaq.push(['_setAccount', '{{ site.gacode }}']);
     _gaq.push(['_trackPageview']);
 
     (function() {
